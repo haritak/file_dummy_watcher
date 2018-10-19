@@ -1,6 +1,5 @@
 require 'fileutils'
-trgFilename = "foo.txt"
-backupFolder = "backups"
+trgFilename = "/var/samba/protocol/2018-Protocol.ods"
 
 startSize = File.size(trgFilename)
 
